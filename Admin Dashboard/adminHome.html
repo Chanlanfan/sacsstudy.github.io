@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <link rel="stylesheet" href="/styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homework App | ADMIN</title>
+      </head>
+<body>
+
+
+<h1 id="heading">Homework App | Admin</h1>
+<p id="ByCharlesAdmin">by Charles</p>
+<p id="date1"></p>
+<script>
+  document.getElementById("date1").innerHTML = Date();
+  </script>
+
+<h2>Is there any homework?</h2>
+
+<label for="switch">Is there any homework?</label> 
+<input type="checkbox" id="switch" onclick="myFunction()">
+
+<script src="/HWinfo.js"></script>
+    <p id="yes"></p>
+    <p id="no"></p>
+
+<form  id="Back" action="/index.html">
+    <button type="submit">Back</button>
+  </form>
+</body>
+</html>

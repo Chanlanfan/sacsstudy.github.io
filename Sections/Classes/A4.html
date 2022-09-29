@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Homework App | A4</title>
+</head>
+<body>
+
+  <h1 id="heading">Homework App | A4 </h1>
+
+<p id="date"></p>
+<script>
+document.getElementById("date").innerHTML = Date();
+</script>
+<h2>Homework:</h2>
+<label for="subject">Enter Data:</label>
+
+<select name="subject" id="subject">
+  <option value="Math">Math</option>
+  <option value="English">English</option>
+  <option value="EMS">EMS</option>
+  <option value="NS">NS</option>
+</select>
+<input type="text" id="info" placeholder="Info">
+<input type="date" id="due" placeholder="Due Date">
+<form  id="Back" method="get" action="/index.html">
+  <button type="submit">Back</button>
+</form>
+</body>
+</html>

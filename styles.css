@@ -1,0 +1,252 @@
+/*
+id = #
+class = .
+element = 
+*/
+#switch {
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+#date1{
+text-align: right;
+font-weight: bold;
+}
+#heading, p, button, form, h2, input, label, h1 {
+font-family: 'PT Sans', sans-serif;
+}
+
+#date {
+font-weight: bold;
+}
+#class{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+width: 100%;
+}
+
+#Back{
+position: absolute;
+background-color: #04AA6D;
+color: white;
+border: none;
+cursor: pointer;
+width: 100px;
+right: 5px;
+top: 3px;
+font-size: 20px;
+}
+#BackBig{
+text-align: center;
+color: white;
+width: 1000px;
+position: absolute;
+top: 30%;
+left: 30%;
+font-size: 110px;
+}
+.HomeworkOffline {
+font-size: 40px;
+font-weight: bold;
+}
+#Homework{
+all: revert;
+}
+
+
+/* Bordered form */
+.container {
+border: 3px solid #f1f1f1;
+}
+.HomeworkButton{
+background-color: #9ac0b2;
+}
+
+/* By Charles */
+#ByCharles{
+position: absolute;
+top: 20px;
+left:  210px;
+width: 200px;
+height: 100px;
+}
+#ByCharlesHW{
+position: absolute;
+top: 20px;
+left:  440px;
+width: 200px;
+height: 100px;
+}
+#ByCharles8MATHTERM{
+position: absolute;
+top: 20px;
+left:  500px;
+width: 200px;
+height: 100px;
+}
+#ByCharles8MATH{
+position: absolute;
+top: 20px;
+left:  690px;
+width: 200px;
+height: 100px;
+}
+#ByCharlesAdmin{
+position: absolute;
+top: 20px;
+left:  375px;
+width: 200px;
+height: 100px;
+}
+#ByCharlesST{
+position: absolute;
+top: 20px;
+left:  325px;
+width: 200px;
+height: 100px;
+}
+#ByCharlesSTGR{
+position: absolute;
+top: 20px;
+left:  480px;
+width: 200px;
+height: 100px;
+}
+#ByCharlesMath{
+position: absolute;
+top: 20px;
+left:  470px;
+width: 200px;
+height: 100px;
+}
+/* End of By Charles */
+
+
+
+
+
+
+#Suggest{
+background-color: #ff7b00;
+color: white;
+width: 100px;
+position: absolute;
+top: 0;
+right: 238px;
+font-size: 15px;
+}
+#RepProb{
+background-color: #ff0000;
+color: white;
+width: 135px;
+position: absolute;
+top: 0;
+right: 95px;
+font-size: 15px;
+}
+#donations{
+background-color: #f96854;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+width: 10%;
+border-radius: 4px;
+margin-top: 10px;
+margin-right: 25px;
+position: absolute;
+bottom: 0;
+right: 0;
+height: 20%;
+font-weight: bold;
+font-size: 20px;
+}
+.ad1 {
+height: 50%;
+width: 503px;
+border: solid;
+border-radius: 4px;
+background-color: rgb(255, 255, 255);
+position: absolute;
+bottom: 10px;
+left: 10px;
+text-align: center;
+}
+.Latest {
+height: 100px;
+width: 503px;
+border: solid;
+border-radius: 4px;
+background-color: rgb(255, 255, 255);
+position: absolute;
+top: 50%;
+left:37%;
+text-align: center;
+}
+
+/* Set a style for all buttons */
+button {
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+border-radius: 4px;
+right: 10px;
+font-size: 28px;
+}
+/* Add a hover effect for buttons */
+button:hover {
+opacity: 1;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+width: 40%;
+border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+display: block;
+float: none;
+}
+.cancelbtn {
+width: 100%;
+}
+}

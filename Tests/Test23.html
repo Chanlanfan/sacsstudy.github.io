@@ -1,0 +1,20 @@
+
+<p id="demo"></p>
+<label class="switch">
+    <input type="checkbox">
+    <div class="slider"></div>
+  </label>
+<script>
+function myFunction() {
+  var text;
+  var checkbox = document.getElementById("myInput").value;
+
+  switch(checkbox) {
+    case checkbox.checked:
+      text = "Banana is good!";
+    default:
+    text = "I have never heard of that fruit...";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
