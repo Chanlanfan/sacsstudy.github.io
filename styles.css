@@ -140,7 +140,7 @@ color: white;
 width: 100px;
 position: absolute;
 top: 0;
-right: 238px;
+right: 148px;
 font-size: 15px;
 }
 #RepProb{
@@ -149,9 +149,40 @@ color: white;
 width: 135px;
 position: absolute;
 top: 0;
-right: 95px;
+right: 5px;
 font-size: 15px;
 }
+
+
+
+
+@media screen and (max-width: 500px) and (max-height:1000px){
+    #Suggest {
+    visibility: hidden;
+    }
+    #RepProb {
+    visibility: hidden;
+    }
+    #date1 {
+        font-size: 10px;
+    }
+    #HomeButtons .HomeworkButton {
+        visibility: hidden;
+    }
+    #Latest {
+        position: relative;
+        top: -650px;
+        
+    }
+    #ad1 {
+        font-size: 10px;
+        max-width: 200px;
+        
+    }
+    }
+
+
+
 #donations{
 background-color: #f96854;
 color: white;
@@ -170,26 +201,26 @@ height: 20%;
 font-weight: bold;
 font-size: 20px;
 }
-.ad1 {
-height: 50%;
+#ad1 {
+    height: 500px;
 width: 503px;
 border: solid;
 border-radius: 4px;
 background-color: rgb(255, 255, 255);
-position: absolute;
-bottom: 10px;
+position: relative;
+top: 100px;
 left: 10px;
 text-align: center;
 }
-.Latest {
+#Latest {
+position: relative;
 height: 100px;
 width: 30%;
 border: solid;
 border-radius: 4px;
 background-color: rgb(255, 255, 255);
-position: absolute;
-top: 300px;
 left:37%;
+bottom: 500px;
 text-align: center;
 }
 
@@ -257,13 +288,18 @@ width: 100%;
     background-color: rgb(85, 85, 255);
 }
 
-#SubjectList {
+
+
+#SubjectList #DOWNLOAD{
+    height: 60px;
     line-height: 50px;
+  
 }
 
-#SubjectList #HISTORY button {
-    position: absolute;
-    top: 110px;
+#SubjectList #DOWNLOAD button {
+
+    position: relative;
+    top: -75px;
     left: 240px;
     width: 150px;
     background-color: DodgerBlue;
@@ -274,8 +310,8 @@ width: 100%;
     font-size: 15px;
 }
 
-#SubjectList #HISTORY p {
-    position: absolute;
-    top: 100px;
-    left: 430px;
+#SubjectList #DOWNLOAD p{
+position: relative;
+left: 450px;
+top: -145px;
 }
