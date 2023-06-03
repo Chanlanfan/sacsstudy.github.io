@@ -200,25 +200,25 @@ font-size: 20px;
 
 
 #ad1 {
-    height: 500px;
+    height: 200px;
 width: 503px;
 border: solid;
 border-radius: 4px;
 background-color: rgb(255, 255, 255);
 position: relative;
-top: 100px;
+bottom: -350px;
 left: 10px;
 text-align: center;
 }
 #Latest {
 position: relative;
 height: 100px;
-width: 30%;
+width: 35%;
 border: solid;
 border-radius: 4px;
 background-color: rgb(255, 255, 255);
 left:37%;
-bottom: 500px;
+bottom: 100px;
 text-align: center;
 }
 
@@ -318,10 +318,8 @@ top: -145px;
     position: relative;
     top: -150px;
 }
-#desktop::after {
-    content: 'Practice Paper, T2 (w/memo):';
-            }
-@media screen and (max-width: 500px) and (max-height:1000px){
+
+@media screen and (max-width: 1500px) and (max-height:1000px){
     #Suggest {
     visibility: hidden;
     }
@@ -336,7 +334,7 @@ top: -145px;
     }
     #Latest {
         position: relative;
-        top: -650px;
+        top: -150px;
         
     }
     #ad1 {
@@ -370,8 +368,31 @@ top: -145px;
         top: -135px;
         }
 
-        #desktop::after {
-content: 'Prac. ppr, T2 (w/memo)';
-        }
+
     }
 
+
+
+    /* DESKTOP MOBILE TEXT */
+#desktop::after {
+    content: 'Practice Paper, T2 (w/memo):';
+            }
+
+            #NucAgeColdWarDesMob::after {
+                content: 'Nuclear Age and Cold War notes w/ summary:';
+            }
+
+
+
+
+    @media screen and (max-width:1500px){
+            #desktop::after {
+content: 'Prac. ppr, T2 (w/memo)';
+        }    
+
+#NucAgeColdWarDesMob::after {
+    content: 'Nuc Age + Cold War:';
+}
+
+
+    }
