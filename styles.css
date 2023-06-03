@@ -371,7 +371,10 @@ top: -145px;
         top: -135px;
         }
 
-
+#about {
+    position: relative;
+    bottom: 150px;
+}
     }
 
 
