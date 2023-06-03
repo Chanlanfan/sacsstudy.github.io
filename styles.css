@@ -18,7 +18,7 @@ font-size: 16px;
 text-align: right;
 font-weight: bold;
 }
-#heading, p, button, form, h2, input, label, h1 {
+#heading, p, button, form, h2, input, label, h1, h3 {
 font-family: 'PT Sans', sans-serif;
 }
 
