@@ -191,7 +191,7 @@ font-size: 20px;
     margin-top: 10px;
     margin-right: 25px;
     position: absolute;
-    bottom: 200px;
+    bottom: 190px;
     right: 0;
     height: 20%;
     font-weight: bold;
@@ -374,6 +374,7 @@ top: -145px;
 #about {
     position: relative;
     bottom: 150px;
+    font-size: 15px;
 }
     }
 
@@ -396,6 +397,10 @@ top: -145px;
     content: 'Romeo and Juliet, Study Guide:'
 }
 
+#ZMB1\+2M::after {
+    content: '\'Zombie\' Chapter 1+2 memo:';
+}
+
 
     @media screen and (max-width:1500px){
             #desktop::after {
@@ -411,6 +416,10 @@ content: 'Prac. ppr, T2 (w/memo)';
 }
 #RJSG::after {
     content: 'R+J, Study Guide:'
+}
+
+#ZMB1\+2M::after {
+    content: '\'Zmb\' Chpt 1+2 memo:';
 }
 
     }
