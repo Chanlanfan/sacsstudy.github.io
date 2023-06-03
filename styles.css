@@ -424,9 +424,15 @@ content: 'Prac. ppr, T2 (w/memo)';
 
     }
 
-#shortscreenerror{
+#shortscreenerror h1{
     position: absolute;
     top: 50%;
+    left: 30%;
+    visibility: hidden;
+}
+#shortscreenerror h3{
+    position: absolute;
+    top: 60%;
     left: 30%;
     visibility: hidden;
 }
@@ -435,7 +441,11 @@ content: 'Prac. ppr, T2 (w/memo)';
         * {
             visibility: hidden;
         }
-        #shortscreenerror {
+        #shortscreenerror h1{
+         
+            visibility: visible;
+        }
+        #shortscreenerror h3{
          
             visibility: visible;
         }
