@@ -295,8 +295,9 @@ top: -145px;
     position: relative;
     top: -150px;
 }
-
-
+#desktop::after {
+    content: 'Practice Paper, T2 (w/memo):';
+            }
 @media screen and (max-width: 500px) and (max-height:1000px){
     #Suggest {
     visibility: hidden;
@@ -329,6 +330,7 @@ top: -145px;
     font-size: 20px;
 }
 
+
 #DOWNLOAD button {
     left: 240px;
 }
@@ -345,5 +347,8 @@ top: -145px;
         top: -135px;
         }
 
+        #desktop::after {
+content: 'Prac. ppr, T2 (w/memo)';
+        }
     }
 
