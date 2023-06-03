@@ -388,7 +388,13 @@ top: -145px;
                 content: 'Nuclear Age and Cold War notes w/ summary:';
             }
 
+#RJIVQ::after {
+    content: 'Romeo and Juliet, Act IV Questions:';
+}
 
+#RJSG::after {
+    content: 'Romeo and Juliet, Study Guide:'
+}
 
 
     @media screen and (max-width:1500px){
@@ -400,5 +406,11 @@ content: 'Prac. ppr, T2 (w/memo)';
     content: 'Nuc Age + Cold War:';
 }
 
+#RJIVQ::after {
+    content: 'R+J, Act IV Questions:';
+}
+#RJSG::after {
+    content: 'R+J, Study Guide:'
+}
 
     }
