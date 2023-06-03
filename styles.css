@@ -394,7 +394,7 @@ top: -145px;
 }
 
 #RJSG::after {
-    content: 'Romeo and Juliet, Study Guide:'
+    content: 'Romeo and Juliet, Study Guide:';
 }
 
 #ZMB1\+2M::after {
@@ -415,7 +415,7 @@ content: 'Prac. ppr, T2 (w/memo)';
     content: 'R+J, Act IV Questions:';
 }
 #RJSG::after {
-    content: 'R+J, Study Guide:'
+    content: 'R+J, Study Guide:';
 }
 
 #ZMB1\+2M::after {
