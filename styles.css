@@ -423,3 +423,20 @@ content: 'Prac. ppr, T2 (w/memo)';
 }
 
     }
+
+#shortscreenerror{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    visibility: hidden;
+}
+
+    @media screen and (max-height:500px) {
+        * {
+            visibility: hidden;
+        }
+        #shortscreenerror {
+         
+            visibility: visible;
+        }
+    }
