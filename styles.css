@@ -206,7 +206,7 @@ border: solid;
 border-radius: 4px;
 background-color: rgb(255, 255, 255);
 position: relative;
-bottom: -350px;
+top: 350px;
 left: 10px;
 text-align: center;
 }
