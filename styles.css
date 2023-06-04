@@ -403,6 +403,7 @@ top: -145px;
 #DOWNLOAD button {
     left: 110px;
     top: -75px;
+    padding: 0;
 }
 
 #DOWNLOAD p{
