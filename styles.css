@@ -380,8 +380,7 @@ top: -145px;
 
 
 #DOWNLOAD button {
-    right: -130px;
-    padding: 0;
+    left: 110px
 }
 
 #DOWNLOAD p{
@@ -462,7 +461,7 @@ content: 'Prac. ppr, T2 (w/memo)';
     visibility: hidden;
 }
 
-    @media screen and (max-height:500px) {
+    @media screen and (max-height:500px){
         * {
             visibility: hidden;
         }
