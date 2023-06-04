@@ -322,7 +322,7 @@ width: 100%;
 
     position: relative;
     top: -75px;
-    left: 80px;
+    right: 0px;
     width: 150px;
     background-color: DodgerBlue;
     border: none;
@@ -380,7 +380,8 @@ top: -145px;
 
 
 #DOWNLOAD button {
-    left: 140px;
+    right: -130px;
+    padding: 0;
 }
 
 #DOWNLOAD p{
