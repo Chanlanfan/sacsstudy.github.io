@@ -3,36 +3,130 @@ id = #
 class = .
 element = 
 */
-#switch {
-background-color: #4CAF50; /* Green */
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
+
+
+
+
+
+/* GENERAL */
+
+body {
+ margin: 0;
+ background-image: linear-gradient(92.88deg, #595fb1 9.16%, #2941c5 43.89%, #2a28d8 64.72%);
 }
-#date1{
-    position: relative;
-text-align: right;
-font-weight: bold;
-}
+
 #heading, p, button, form, h2, input, label, h1, h3 {
 font-family: 'PT Sans', sans-serif;
 }
 
-#date {
+
+/* INDEX.HTML */
+
+
+header {
+    background-image: linear-gradient(90deg, #005faf 9.16%, #3260b6 54.72%, #69a2d1 79%);
+    overflow: hidden;
+    height: 60px;
+    border-radius: 0 0 15px 15px;
+}
+
+.mainHeading {
+    color: white;
+    margin: 10px;
+}
+
+.ByCharles{
+position: absolute;
+top: 10px;
+left: 210px;
+color: white;
+
+ }
+
+#date1{
+  position: absolute;
+  top: 8px;
+  right: 10px;
+text-align: right;
 font-weight: bold;
 }
-#class{
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 50px;
-width: 100%;
+
+
+
+
+#HomeButtons button{
+    
+    background-image: linear-gradient(92.88deg, #3873a3 9.16%, #005faf 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    height: 6rem;
+    width: 40%;
+    margin: 100px auto;
+    display: block;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
+#HomeButtons button:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+  }
+ 
+
+@media screen and (max-width:1500px) {
+    #HomeButtons button{
+    
+        background-image: linear-gradient(92.88deg, #3873a3 9.16%, #005faf 64.72%);
+        border-radius: 8px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        flex-shrink: 0;
+        font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        height: 4rem;
+        width: 40%;
+        margin: 100px auto;
+        display: block;
+        padding: 0 1.6rem;
+        text-align: center;
+        text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+        transition: all .5s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+    header {
+        background-image: linear-gradient(90deg, #005faf 9.16%, #005faf 55.16%, #6987be 99.72%);
+        overflow: hidden;
+        height: 60px;
+        border-radius: 0 0 15px 15px;
+    }
+
+#date1 {
+    visibility: hidden;
+}
+
+}
+
+
+
+
+
+
 
 #Back{
 position: absolute;
@@ -72,88 +166,6 @@ background-color: #9ac0b2;
 }
 
 /* By Charles */
-#ByCharles{
-position: absolute;
-top: 20px;
-left:  210px;
-width: 200px;
-height: 100px;
-}
-#ByCharlesHW{
-position: absolute;
-top: 20px;
-left:  440px;
-width: 200px;
-height: 100px;
-}
-#ByCharlesMATHTERM{
-position: absolute;
-top: 20px;
-left:  500px;
-width: 200px;
-height: 100px;
-}
-#ByCharlesMATH{
-position: absolute;
-top: 20px;
-left:  690px;
-width: 200px;
-height: 100px;
-}
-#ByCharlesAdmin{
-position: absolute;
-top: 20px;
-left:  375px;
-width: 200px;
-height: 100px;
-}
-#ByCharlesST{
-position: absolute;
-top: 20px;
-left:  325px;
-width: 200px;
-height: 100px;
-}
-#ByCharlesSTGR{
-position: absolute;
-top: 20px;
-left:  480px;
-width: 200px;
-height: 100px;
-}
-#ByCharlesMath{
-position: absolute;
-top: 20px;
-left:  470px;
-width: 200px;
-height: 100px;
-}
-/* End of By Charles */
-
-
-
-
-
-
-#Suggest{
-background-color: #ff7b00;
-color: white;
-width: 100px;
-position: absolute;
-top: 0;
-right: 148px;
-font-size: 15px;
-}
-#RepProb{
-background-color: #ff0000;
-color: white;
-width: 135px;
-position: absolute;
-top: 0;
-right: 5px;
-font-size: 15px;
-}
-
 
 
 
@@ -240,35 +252,6 @@ button:hover {
 opacity: 1;
 }
 
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-width: auto;
-padding: 10px 18px;
-background-color: #f44336;
-}
-
-/* Center the avatar image inside this container */
-.imgcontainer {
-text-align: center;
-margin: 24px 0 12px 0;
-}
-
-/* Avatar image */
-img.avatar {
-width: 40%;
-border-radius: 50%;
-}
-
-/* Add padding to containers */
-.container {
-padding: 16px;
-}
-
-/* The "Forgot password" text */
-span.psw {
-float: right;
-padding-top: 16px;
-}
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
@@ -326,9 +309,7 @@ top: -145px;
     #RepProb {
     visibility: hidden;
     }
-    #date1 {
-        font-size: 10px;
-    }
+
     #HomeButtons .HomeworkButton {
         visibility: hidden;
     }
