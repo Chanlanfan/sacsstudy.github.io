@@ -13,6 +13,7 @@ element =
 body {
  margin: 0;
  background-image: linear-gradient(92.88deg, #595fb1 9.16%, #2941c5 43.89%, #2a28d8 64.72%);
+ overflow-x: hidden;
 }
 
 #heading, p, button, form, h2, input, label, h1, h3 {
@@ -380,14 +381,15 @@ top: -145px;
 
 
 #DOWNLOAD button {
-    left: 110px
+    left: 110px;
+    top: -75px;
 }
 
 #DOWNLOAD p{
     position: relative;
     font-size: 10px;
     left: 0px;
-    top: -110px;
+    top: -107px;
     }
 
     #DOWNLOAD hr{
