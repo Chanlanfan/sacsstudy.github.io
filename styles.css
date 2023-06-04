@@ -73,6 +73,7 @@ font-weight: bold;
 #HomeButtons button{
     
     background-image: linear-gradient(92.88deg, #3873a3 9.16%, #005faf 64.72%);
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 30px;
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
@@ -86,7 +87,7 @@ font-weight: bold;
     width: 40%;
     margin: 100px auto;
     display: block;
-    padding: 0 1.6rem;
+    padding: 0 1.7rem;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
     transition: all .5s;
@@ -95,9 +96,12 @@ font-weight: bold;
     touch-action: manipulation;
 }
 #HomeButtons button:hover {
-    box-shadow: rgba(0, 0, 0, 0.5) 0 1px 30px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0 1px 30px;
     transition-duration: .1s;
+    transform: rotateY(20deg);
+	animation: rotateAnimation 1s linear infinite;
   }
+
  
 
 @media screen and (max-width:1500px) {
@@ -124,6 +128,8 @@ font-weight: bold;
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
+        position: relative;
+        bottom: 60px
     }
     header {
         background-image: linear-gradient(90deg, #005faf 9.16%, #005faf 55.16%, #6987be 99.72%);
@@ -177,7 +183,7 @@ font-size: 20px;
 
 #submissions{
     background-color: #00ff95;
-    color: rgb(0, 0, 0);
+
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -343,6 +349,20 @@ top: -145px;
     position: relative;
     top: -150px;
 }
+#about {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    color: white;
+    bottom: 140px;
+    font-size: 15px;
+}
+
+#about a {
+    color: rgb(106, 188, 255);
+}
+
 
 @media screen and (max-width: 1500px) and (max-height:1000px){
     #Suggest {
@@ -399,9 +419,15 @@ top: -145px;
 
 #about {
     position: relative;
-    bottom: 150px;
+    overflow: hidden;
+    margin: 10px;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    color: white;
+    bottom: 190px;
     font-size: 15px;
 }
+
+
     }
 
 
