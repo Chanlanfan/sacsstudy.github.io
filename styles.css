@@ -263,7 +263,7 @@ margin-right: 25px;
 position: absolute;
 bottom: 10px;
 right: 0;
-height: 20%;
+height: 170px;
 font-weight: bold;
 font-size: 20px;
 animation-duration: 1s;
@@ -324,7 +324,10 @@ animation-iteration-count: 2;
     height: 20%;
     font-weight: bold;
     font-size: 15px;
-    
+    animation-duration: 1s;
+animation-name: wobble;
+animation-timing-function: ease;
+animation-iteration-count: 2;
     }
 
     
