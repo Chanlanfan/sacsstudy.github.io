@@ -497,8 +497,7 @@ top: -145px;
 }
 
 
-@media screen and (max-width: 1000px) and (max-height:1000px){
-
+@media screen and (max-width: 1000px) {
     #HomeButtons .HomeworkButton {
         visibility: hidden;
     }
