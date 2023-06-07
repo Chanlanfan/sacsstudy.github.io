@@ -12,7 +12,6 @@ element =
 
 body {
  margin: 0;
- background-image: linear-gradient(92.88deg, #595fb1 9.16%, #2941c5 43.89%, #2a28d8 64.72%);
  overflow-x: hidden;
 }
 
@@ -110,14 +109,13 @@ top: 10px;
 
 
 header {
-    background-image: linear-gradient(90deg, #005faf 9.16%, #3260b6 54.72%, #69a2d1 79%);
     overflow: hidden;
     height: 60px;
-    border-radius: 0 0 15px 15px;
+    border: 10px;
+    border-bottom: 1px solid rgb(180, 180, 180);
 }
 
 .mainHeading {
-    color: white;
     margin: 10px;
 }
 
@@ -125,8 +123,6 @@ header {
 position: absolute;
 top: 10px;
 left: 210px;
-color: white;
-
  }
 
 #date1{
@@ -139,32 +135,30 @@ font-weight: bold;
 
 #HomeButtons button{
     
-    background-image: linear-gradient(92.88deg, #3873a3 9.16%, #005faf 64.72%);
-    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 30px;
+    background-image: linear-gradient(92.88deg, #ffffff 9.16%, #ffffff 64.72%);
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
-    color: #FFFFFF;
-    border: black 1px solid;
+    color: #000000;
     cursor: pointer;
     flex-shrink: 0;
     font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
-    height: 6rem;
-    width: 40%;
+    height: 4rem;
+    width: 50%;
     margin: 100px auto;
     display: block;
-    padding: 0 1.7rem;
+    padding: 0 1.6rem;
+    border: black 1px solid;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
     transition: all .5s;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    animation: scale-fade-out .3s cubic-bezier(0.34, 1.56, 0.64, 1) ;
-    animation-timing-function: ease;
-animation-iteration-count: 1;
+    position: relative;
+    bottom: 60px
 }
 
 
@@ -188,59 +182,13 @@ animation-iteration-count: 1;
 }
 
 
-@media screen and (max-width:1000px) {
-
-    body{
-        background-image: linear-gradient(92.88deg, #ffffff 9.16%, #ffffff 64.72%);
-    }
-    #HomeButtons button{
-        background-image: linear-gradient(92.88deg, #ffffff 9.16%, #ffffff 64.72%);
-        border-radius: 8px;
-        border-style: none;
-        box-sizing: border-box;
-        color: #000000;
-        cursor: pointer;
-        flex-shrink: 0;
-        font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-        font-size: 30px;
-        font-weight: 500;
-        height: 4rem;
-        width: 50%;
-        margin: 100px auto;
-        display: block;
-        padding: 0 1.6rem;
-        border: black 1px solid;
-        text-align: center;
-        text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
-        transition: all .5s;
-        user-select: none;
-        -webkit-user-select: none;
-        touch-action: manipulation;
-        position: relative;
-        bottom: 60px
-    }
-    header {
-        all: revert;
-        overflow: hidden;
-        height: 60px;
-        border: 10px;
-        border-bottom: 1px solid rgb(180, 180, 180);
-    }
-
-
-.mainHeading{
-color: black;
-}
+@media screen and (max-width:1000px) { 
 .ByCharles {
 visibility: hidden;
 }
-
 #date1 {
     visibility: hidden;
 }
-
-
-
 }
 
 #lastModified{
@@ -258,61 +206,29 @@ right: 5px;
 
 #donations{
     background-image: linear-gradient(50.88deg, #ffab5c 9.16%, #ff7b00 64.72%);
-
+overflow: hidden;
 color: white;
-padding: 14px 20px;
+padding: 14px 10px;
 margin: 8px 0;
 border: none;
 width: 10%;
 min-width: 150px;
 border-radius: 4px;
 margin-top: 10px;
-margin-right: 25px;
+margin-right: 5px;
 position: absolute;
 bottom: 10px;
-right: 0;
-height: 170px;
+right: 10px;
+height: 130px;
 font-weight: bold;
-font-size: 20px;
+font-size: 17px;
 animation-duration: 1s;
 animation-name: wobble;
 animation-timing-function: ease;
 animation-iteration-count: 2;
 
 }
-@keyframes wobble {
-        0%, 100% {
-            -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-            -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-        }
-    
-        15% {
-            -webkit-transform: translateX(-16px) rotate(-5deg);
-            transform: translateX(-16px) rotate(-5deg);
-        }
-    
-        30% {
-            -webkit-transform: translateX(calc(16px / 2)) rotate(5deg);
-            transform: translateX(calc(16px / 2)) rotate(5deg);
-        }
-    
-        45% {
-            -webkit-transform: translateX(calc(-16px / 2)) rotate(calc(-5deg / 1.8));
-            transform: translateX(calc(-16px / 2)) rotate(calc(-5deg / 1.8));
-        }
-    
-        60% {
-            -webkit-transform: translateX(calc(16px / 3.3)) rotate(calc(5deg / 3));
-            transform: translateX(calc(16px / 3.3)) rotate(calc(5deg / 3));
-        }
-    
-        75% {
-            -webkit-transform: translateX(calc(-16px / 5.5)) rotate(calc(-5deg / 5));
-            transform: translateX(calc(-16px / 5.5)) rotate(calc(-5deg / 5));
-        }
-    }
+
 
 #submissions{
 
@@ -328,7 +244,8 @@ animation-iteration-count: 2;
     margin-right: 25px;
     position: absolute;
     bottom: 210px;
-    right: 0;
+    left: 10px;
+    bottom: 10px;
     height: 20%;
     font-weight: bold;
     font-size: 15px;
@@ -341,12 +258,8 @@ animation-iteration-count: 2;
     
 
 
-@media screen and (max-width: 1000px) {
-    #submissions {
-        left: 10px;
-        bottom: 10px;
-    }
-}
+
+
 
 
 
@@ -485,34 +398,32 @@ top: -145px;
     position: relative;
     top: -150px;
 }
+#about {
+    overflow: inherit;
+    position: absolute;
+    top: 280px;
+    margin: 0 300px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+animation: color 5s infinite linear;
+}
 #about p{
     margin: 10px;
     font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-    color: rgb(255, 255, 255);
     font-size: 15px;
 }
 
 #about a {
     color: rgb(106, 188, 255);
 }
+#scroll {
+    position: absolute;
+    top: 240px;
+    right: 17%;
+}
 
 
 @media screen and (max-width: 1000px) {
-    #HomeButtons .HomeworkButton {
-        visibility: hidden;
-    }
-    #Latest {
-       position: absolute;
-        top: 230px;
-        left: 10px;
-        
-    }
-    #ad1 {
-        position: absolute;
-        bottom: 10px;
-        font-size: 10px;
-        max-width: 200px;
-    }
 
 #heading {
     max-width: 280px;
@@ -544,37 +455,22 @@ top: -145px;
         top: -135px;
         }
 
-#about {
-    overflow: inherit;
-    position: absolute;
-    top: 170px;
-    margin: 20px;
-    height: 230px;
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 10px;
-animation: color 5s infinite linear;
-}
 
-@keyframes color {
-    0%   { box-shadow: 0px -5px 100px -40px #005faf;}
-    20%  { box-shadow: 0px -5px 100px -40px #af00a6;}
-    40%  { box-shadow: 0px -5px 100px -40px #af0000;}
-    60%  { box-shadow: 0px -5px 100px -40px #afa600;}
-    80%  { box-shadow: 0px -5px 100px -40px #0caf00;}
-    100% { box-shadow: 0px -5px 100px -40px #005faf;}
-  }
-#about p{
-    margin: 10px;
-    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-    color: rgb(0, 0, 0);
+#about {
+    margin: 20px;
+    top: 170px;
+    height: 230px;
+}
+        
+#about p {
     font-size: 13px;
 }
-
 #scroll {
     position: absolute;
     top: 150px;
     right: 40px;
 }
+
     }
 
 
@@ -649,3 +545,62 @@ content: 'Prac. ppr, T2 (w/memo)';
             visibility: visible;
         }
     }
+
+#cursorFun img{
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    height: 30px;
+    animation: cursorMove var(--animation-time) ease alternate 1;
+} 
+ @-webkit-keyframes cursorMove {
+    0%   {-webkit-transform:  translate(0, 0)}
+    20% {-webkit-transform:  translate(30px, 0px)}
+    30% {-webkit-transform:  translate(30px, 0px)}
+    40% {-webkit-transform:  translate(100px, 400px)}
+    60% {-webkit-transform:  translate(100px, 400px)}
+    70% {-webkit-transform:  translate(-400px, 0px)}
+    100% {-webkit-transform:  translate(0px, 0px)}
+ }
+@keyframes wobble {
+        0%, 100% {
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+        }
+    
+        15% {
+            -webkit-transform: translateX(-16px) rotate(-5deg);
+            transform: translateX(-16px) rotate(-5deg);
+        }
+    
+        30% {
+            -webkit-transform: translateX(calc(16px / 2)) rotate(5deg);
+            transform: translateX(calc(16px / 2)) rotate(5deg);
+        }
+    
+        45% {
+            -webkit-transform: translateX(calc(-16px / 2)) rotate(calc(-5deg / 1.8));
+            transform: translateX(calc(-16px / 2)) rotate(calc(-5deg / 1.8));
+        }
+    
+        60% {
+            -webkit-transform: translateX(calc(16px / 3.3)) rotate(calc(5deg / 3));
+            transform: translateX(calc(16px / 3.3)) rotate(calc(5deg / 3));
+        }
+    
+        75% {
+            -webkit-transform: translateX(calc(-16px / 5.5)) rotate(calc(-5deg / 5));
+            transform: translateX(calc(-16px / 5.5)) rotate(calc(-5deg / 5));
+        }
+    }
+    @keyframes color {
+    0%   { box-shadow: 0px -5px 100px -40px #005faf;}
+    20%  { box-shadow: 0px -5px 100px -40px #af00a6;}
+    40%  { box-shadow: 0px -5px 100px -40px #af0000;}
+    60%  { box-shadow: 0px -5px 100px -40px #afa600;}
+    80%  { box-shadow: 0px -5px 100px -40px #0caf00;}
+    100% { box-shadow: 0px -5px 100px -40px #005faf;}
+  }
+
