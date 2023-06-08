@@ -401,8 +401,9 @@ top: -145px;
 #about {
     overflow: inherit;
     position: absolute;
-    top: 280px;
-    margin: 0 300px;
+    top: 200px;
+    margin: 0 200px;
+    height: 100px;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
 animation: color 5s infinite linear;
@@ -416,10 +417,26 @@ animation: color 5s infinite linear;
 #about a {
     color: rgb(106, 188, 255);
 }
-#scroll {
+#upcoming {
+    overflow: inherit;
     position: absolute;
-    top: 240px;
-    right: 17%;
+    top: 380px;
+    margin: 0 300px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+animation: color 5s infinite linear;
+  }
+  #upcoming p{
+    margin: 10px;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 15px;
+  }
+  
+  #upcoming a {
+    color: rgb(106, 188, 255);
+  }
+#scroll {
+    visibility: hidden;
 }
 
 
@@ -466,6 +483,7 @@ animation: color 5s infinite linear;
     font-size: 13px;
 }
 #scroll {
+    visibility: visible;
     position: absolute;
     top: 150px;
     right: 40px;
@@ -477,31 +495,41 @@ animation: color 5s infinite linear;
 
 table{
     font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif; 
+    
 }
 
 td {
-    font-size: 17px;
-    font-weight: bold;
-}
+    border-bottom: #7e7e7e82 1px solid;
+    font-weight: bold;}
 
 td button {
     font-size: 15px;
     font-weight: normal;
 }
 
-.fileName {
+.fileNamecol {
     width: 100%
 }
 
-.DownloadBtn {
+.DownloadBtncol {
     width: 200px;
     float: right;
 }
 
 
 
+.fileName {
+    position: relative;
+    top: 5px;
+    font-size: 20px;;
+}
 
-
+.annotation {
+    position: relative;
+    top: 10px;
+    font-size: 13px;
+    font-weight: 10;
+}
 
 
 
