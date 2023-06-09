@@ -161,6 +161,11 @@ font-weight: bold;
     bottom: 60px
 }
 
+#HomeButtons #print button{
+    position: relative;
+    bottom: 150px
+}
+
 
 
 #HomeButtons button:hover {
@@ -185,6 +190,9 @@ font-weight: bold;
 @media screen and (max-width:1000px) { 
 .ByCharles {
 visibility: hidden;
+}
+#HomeButtons #print button{
+    font-size: 17px;
 }
 #date1 {
     visibility: hidden;
@@ -401,9 +409,9 @@ top: -145px;
 #about {
     overflow: inherit;
     position: absolute;
-    top: 200px;
+    top: 300px;
     margin: 0 200px;
-    height: 100px;
+    height: 150px;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
 animation: color 5s infinite linear;
@@ -475,7 +483,7 @@ animation: color 5s infinite linear;
 
 #about {
     margin: 20px;
-    top: 170px;
+    top: 250px;
     height: 230px;
 }
         
@@ -485,7 +493,7 @@ animation: color 5s infinite linear;
 #scroll {
     visibility: visible;
     position: absolute;
-    top: 150px;
+    top: 230px;
     right: 40px;
 }
 
@@ -500,7 +508,8 @@ table{
 
 td {
     border-bottom: #7e7e7e82 1px solid;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
 td button {
     font-size: 15px;
