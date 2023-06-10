@@ -187,6 +187,7 @@ font-weight: bold;
 }
 
 
+
 @media screen and (max-width:1000px) { 
 .ByCharles {
 visibility: hidden;
@@ -350,7 +351,7 @@ width: 700px;
 }
 
 
-#Gr9other button{
+#GrOther button{
     background-image: linear-gradient(92.88deg, #742374 9.16%, #5800fc 64.72%);
     margin-top: 30px;
     width: 50%;
@@ -359,7 +360,7 @@ width: 700px;
     #Gr9Subjects button{
         width: 300px;
         }
-        #Gr9other button{
+        #GrOther button{
             background-image: linear-gradient(92.88deg, #742374 9.16%, #5800fc 64.72%);
             margin-top: 30px;
             width: 80%;

@@ -12,13 +12,17 @@
 
 
 <h1 id="heading">SACS Study | Study | Grade 8</h1>
-<p id="ByCharlesSTGR">by Charles</p>
-<p id="date1"></p>
-<script>
-  document.getElementById("date1").innerHTML = Date();
-  </script>
+<form  id="Back" method="get" action="/Sections/Study/gradeStudy.html">
+  <button class="back-button"> <span class="text">Back</span>
+
+    <div class="icons">
+        <div class="cross"></div>
+        <div class="check"></div>
+    </div>
+</button>
+</form>
 <div id="StudySubjects">
-    <form  method="get" action="/Sections/Study/Grade8/Maths/grade8TermMath.html">
+    <!-- <form  method="get" action="/Sections/Study/Grade8/Maths/grade8Math.html">
       <button type="submit">Mathematics</button>
     </form>
     <form  method="get" action="/Sections/Study/Grade8/NS/grade8TermNS.html">
@@ -50,7 +54,12 @@
     </form>
     <form  method="get" action="/Sections/Study/Grade8/Xho/grade8TermXho.html">
       <button type="submit">Xhosa</button>
-    </form>
+    </form> -->
+    <div id="GrOther">
+      <form  method="get" action="/Sections/Study/Grade8/lallemandGr8.html">
+          <button type="submit">Lallemand's notes</button>
+        </form>
+  </div>
     </div>
 
 
